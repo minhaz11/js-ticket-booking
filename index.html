@@ -54,7 +54,7 @@
                     <input class="inp-style inp-width" type="number" name="" id="first-class" value="0"> 
                 </div>
                 <div class="plus-minus-btn">
-                    <p><span id="f-plus" onclick="firstClassClick()">+</span> <span id="f-minus" onclick="firstClassClick(true)" >-</span></p>
+                    <p><span id="f-plus" onclick="clickHandler('first-class')">+</span> <span id="f-minus" onclick="clickHandler('first-class',true)" >-</span></p>
                 </div>
             </div>
             
@@ -64,7 +64,7 @@
                     <input class="inp-style inp-width" type="number" name="" id="economy" value="0">
                 </div>
                 <div class="plus-minus-btn">
-                    <p> <span id="e-plus">+</span> <span id="e-minus" >-</span> </p>
+                    <p> <span id="e-plus" onclick="clickHandler('economy')">+</span> <span id="e-minus" onclick="clickHandler('economy',true)" >-</span> </p>
                 </div>
             </div>
             <div class="calculations">
